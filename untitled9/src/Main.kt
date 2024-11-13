@@ -6,13 +6,18 @@ fun main() {
     println("2 - Ножницы")
     println("3 - Бумага")
     player = readln().toInt()
-    if (player == pc) {
+    if (player == pc) 
+    {
         println("Ничья")
-    } else if ((player == 1 && pc == 3) ||
+    } 
+    else if ((player == 1 && pc == 3) ||
         (player == 2 && pc == 1) ||
-        (player == 3 && pc == 2)) {
+        (player == 3 && pc == 2)) 
+    {
         println("Победа")
-    } else {
+    } 
+    else 
+    {
         println("Поражение")
     }
 }
